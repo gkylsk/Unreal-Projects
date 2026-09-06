@@ -1,0 +1,102 @@
+# ============================================================
+# Unreal Engine - Multi Project Repository
+# ============================================================
+
+# ------------------------------------------------------------
+# Unreal generated folders
+# ------------------------------------------------------------
+
+**/Binaries/
+**/DerivedDataCache/
+**/Intermediate/
+**/Saved/
+
+# Unreal generated build data
+**/*_BuiltData.uasset
+
+# ------------------------------------------------------------
+# Visual Studio / Rider
+# ------------------------------------------------------------
+
+.vs/
+.idea/
+.vscode/
+
+# Visual Studio generated files
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Rider
+*.sln.iml
+
+# ------------------------------------------------------------
+# Unreal project files that can be regenerated
+# ------------------------------------------------------------
+
+*.xcodeproj
+*.xcworkspace
+
+# ------------------------------------------------------------
+# Compiled binaries / objects
+# ------------------------------------------------------------
+
+*.dll
+*.exe
+*.so
+*.dylib
+*.o
+*.obj
+*.lib
+*.a
+*.la
+*.lai
+*.lo
+*.slo
+
+# Precompiled headers
+*.gch
+*.pch
+
+# ------------------------------------------------------------
+# Build output
+# ------------------------------------------------------------
+
+**/Build/*
+
+# Keep Build configuration files if required
+!**/Build/*/
+!**/Build/*/PakBlacklist*.txt
+!**/Build/**/*.ico
+
+# ------------------------------------------------------------
+# OS files
+# ------------------------------------------------------------
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ------------------------------------------------------------
+# Logs
+# ------------------------------------------------------------
+
+*.log
+
+# ------------------------------------------------------------
+# Unreal autosaves / temporary files
+# ------------------------------------------------------------
+
+**/Content/__ExternalActors__/
+**/Content/__ExternalObjects__/
+
+# ------------------------------------------------------------
+# Optional: Source Art generated/imported files
+# ------------------------------------------------------------
+
+# Uncomment only if you DON'T want these tracked
+# **/SourceArt/**/*.png
+# **/SourceArt/**/*.tga
